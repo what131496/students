@@ -1,0 +1,92 @@
+/*此乃公共样式*/
+.commonWidth{width: 1260px; margin: 0 auto;}
+body{font-family: "微软雅黑";}
+/*顶部的样式效果*/
+.header{height: 140px; background:rgb(4,148,170) ;border-radius: 5px;}
+.header img{margin-left: 60px;}
+.header .h-title{ margin-bottom: 30px;}
+.information{ width: 400px; height: 135px;float: right;}
+.information .users{background: url(../img/index/user.png) no-repeat;
+text-indent: 38px;}
+.information .exit{background: url(../img/index/exit.png) no-repeat; text-indent: 39px;}
+.information b{ margin-left:65px; font-size: 16px; font-weight: 600; color: white;
+margin-top: 15px; display: block;height: 35px;}
+.information .exit{ color: darkgray; margin-left: 45px;margin-top: -10px;display: block;}
+.information .exit:hover{color: orange;}
+/*左侧样式*/
+.left-header{
+	width:230px;
+	height: 480px;
+	margin-left: 50px;
+	border: 5px solid gainsboro;
+	border-radius: 5px;
+	background:url(../img/left-bg1.jpg) no-repeat;
+	overflow: hidden;
+}
+.left-header .left-title  li{
+	list-style: none; display: block;height: 32px;width: 140px;
+	margin: 15px 10px;text-align: left;text-indent: 20px; line-height: 32px;color: white;font-size: 15px;
+	cursor: pointer;border-radius: 20px;box-shadow: 2px 2px 2px  2px darkgray;letter-spacing: 2px;
+	background: url(../img/index/down1.png) no-repeat;transition: all 0.3s;
+}
+.left-header .left-title  li:hover{box-shadow: 2px 2px 5px  aquamarine;transform: scale(1.06);}
+.left-header .left-title .mtitle li{
+	height: 25px; width: 112px;line-height: 25px;margin: 15px 45px;
+	font-size: 12px;font-weight: 320; letter-spacing: 2px;
+	box-shadow: 2px 2px 2px  2px burlywood;
+}
+#btitle2{margin-left: 30px;}
+#btitle3{ margin-left: 52px;}
+#btitle4{ margin-left: 70px;}
+#mtitle2 li{margin-left: 55px;}
+#mtitle3 li{ margin-left: 75px;}
+#mtitle4 li{ margin-left: 90px;}
+.left-header .left-title .mtitle{
+	display: none;
+}
+/*右侧样式设计*/
+.right-main{
+	width: 1005px;height: 480px; border: 4px solid gainsboro;
+	
+	border-radius: 12px;background:url(../img/index/bg.png)
+}
+.right-main p{
+	font-size: 36px;
+	color: white;
+	font-weight: 500;
+	margin-top: 35px;
+	margin-left: 56px;
+}
+.right-main .rtime{
+	width: 960px; height: 260px; text-align: center;line-height: 260px;
+	font-size: 38px;color: white;
+}
+/*登录页面*/
+.logon-box{width: 570px; height: 280px; border: 5px solid white;border-radius: 15px;
+ margin-top: 180px; margin-left: 390px;font-size: 15px;
+background-color:rgba(0 ,191, 255,0.45);}
+ .logon-box form{width: 380px; height: 220px;margin-top: 20px; margin-left: 200px;}
+ .logon-box input{ width: 210px; height: 22px; margin: 10px auto;}
+ .logon-box .paw{letter-spacing:4px;}
+ .logon-box b{ margin: 0 10px; font-weight: 500;}
+ .logon-box a{ margin: 6px; font-size: 16px;color: black;font-weight: 500;}
+ .logon-box a:hover{color: red;}
+ .logon-box .forget{font-size: 14px;color: ;}
+ .logon-box h2{ margin: 15px 170px;font-weight: 500;}
+ .logon-box .code{ width: 80px;}
+ .logon-box .logon-btn{ width: 60px;height:35px;margin: 10px 35px;
+  text-indent: 1px; font-size: 14px;background: rgb(91,198,255);font-weight: 600; 
+  cursor: pointer; color:black;border-radius: 8px;box-shadow: 0 6px #999}
+  .logon-box .logon-btn:hover{background-color:orange ;box-shadow: 0 5px #666;transform: translateY(4px);;}
+/*修改密码页面*/
+.modif-main{}
+.modify-box{
+	width: 980px; height: 320px; margin: 80px 210px;
+}
+.modify-box input{ width: 280px;}
+.control-label {font-size: 17px;font-weight: 400;}
+/*报道信息填写*/
+.register-box{ width: 980px; height: 450px; margin: 20px 100px;}
+.register-box .form-group{ display: inline-block; width: 460px;}
+.register-box label{font-size: 15px;width: 100px;float: left;font-weight: 600;}
+.register-box input{ width: 280px;}

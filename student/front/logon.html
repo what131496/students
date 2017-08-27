@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+	<meta name="renderer" content="webkit" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+    <meta charset="UTF-8">
+    <title>用户登录--甘肃农业大学信息科学技术学院学生信息管理</title>
+    <link rel="shortcut icon" href="img/icon.ico" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel=" stylesheet" href="css/main.css">
+	<body background="img/bg.jpg">
+		<div class="logon-box">
+			<h2>学生信息管理系统登录</h2>
+			<div class="fl logon">
+				<img src="img/logon/1.png" alt="学生登录">
+			</div>
+			<form action="" method="post">
+				<b>用户名</b><input type="text" name="username" pattern="[0-9]{10}" placeholder="请输入10位学号" maxlength="10" required="required" autocomplete="off"><br />
+				<b class="paw">密 码</b><input type="password" placeholder="请输入您的密码"  name="password" pattern="" size="16" required="required" autocomplete="off">
+				<a href="#" class="forget">忘记密码</a>
+				<br />
+				<b>验证码</b><input type="text" name="code" required="required" class="code" autocomplete="off">
+				<img src="" alt="验证码"><a href="">看不清</a>
+				<br />
+				<input type="submit" value="登录" class="logon-btn">
+				<input type="reset" value="重置" class="logon-btn">
+			</form>
+		</div>
+	</body>
+</html>
